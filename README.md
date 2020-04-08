@@ -1,2 +1,2 @@
 # covid_update
-USAGE : python3 covid19.py
+USAGE : python3 covid_19.py
