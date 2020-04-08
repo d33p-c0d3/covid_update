@@ -28,7 +28,6 @@ if __name__=="__main__":
         datalist=f"{sdata[0][1]}\tC: {sdata[0][2]} D: {sdata[0][3]}"
         for i in sdata:
             if (counter%4)==0:
-
                 activate_notification()
             state=i[1];case=i[2];Cured=i[3];death=i[4]
             title=f"D33p C0D3----- COVID-19 Cases In India: {totalcase}"
