@@ -36,6 +36,6 @@ if __name__=="__main__":
             ndataH=f"संपूर्ण: {case} -- ठीक हुए: {Cured} -- मृतक: {death}"
             activate_notification(title,Head+ndataE+"\n"+ndataH,5)
             try:
-                time.sleep(1)
+                time.sleep(5)
             except:
                 exit(0)
